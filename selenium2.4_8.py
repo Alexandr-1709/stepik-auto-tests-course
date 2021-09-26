@@ -31,4 +31,6 @@ input = browser.find_element_by_id("answer")
 input.send_keys(y)
 button = browser.find_element_by_id("solve")
 button.click()
+
+#вывод полученного результата
 print_answer(browser)
